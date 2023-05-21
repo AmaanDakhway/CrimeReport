@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.EmergencyFragment"
+    tools:ignore="HardcodedText"
+    android:padding="30dp">
+
+    <Button
+        android:id="@+id/emergency"
+        android:layout_width="wrap_content"
+        android:layout_height="384dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/emergency"
+        android:fontFamily="@font/aclonica"
+        android:text="EMERGENCY"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/emergency_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emergency"
+        android:layout_marginTop="35dp"
+        android:text="YOUR LOCATION HAS BEEN SENT TO THE AUTHORITIES"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+</RelativeLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fragment_report"
+    tools:ignore="HardcodedText"
+    android:paddingTop="48dp"
+    tools:context=".Fragments.ReportFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="60dp"
+            android:padding="30dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <fragment
+                    android:id="@+id/google_map"
+                    android:name="com.google.android.gms.maps.SupportMapFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/google_map"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/aclonica"
+                    android:text="Report Details"
+                    android:textColor="@color/black"
+                    android:textSize="40sp" />
+
+                <EditText
+                    android:id="@+id/CrimeType"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView2"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/textfield"
+                    android:ems="10"
+                    android:hint="Crime: Eg: Robbery, Murder"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/Description"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_below="@+id/CrimeType"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/textfield"
+                    android:ems="5"
+                    android:gravity="start|top"
+                    android:hint="Description About The Crime"
+                    android:inputType="textMultiLine" />
+
+                <Button
+                    android:id="@+id/SubmitReport"
+                    android:layout_width="194dp"
+                    android:layout_height="79dp"
+                    android:layout_below="@+id/Description"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/button2"
+                    android:fontFamily="@font/aclonica"
+                    android:text="Submit Report"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+</RelativeLayout>

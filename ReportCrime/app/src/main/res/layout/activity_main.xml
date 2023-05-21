@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:background="@drawable/activity_main"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="170dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/button1"
+        android:elevation="4dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Login"
+        android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="170dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/textView"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="350dp"
+        android:layout_toRightOf="@+id/login"
+        android:background="@drawable/button1"
+        android:fontFamily="@font/aclonica"
+        android:text="Register"
+        android:textSize="17dp" />
+
+</RelativeLayout>

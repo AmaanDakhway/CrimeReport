@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="HardcodedText"
+    android:background="@drawable/activity_display_report"
+    android:padding="20dp"
+    tools:context=".DisplayReportActivity">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/aclonica"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/CRIME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Crime: "
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/CRIME_DESCRIPTION"
+        android:layout_width="109dp"
+        android:layout_height="43dp"
+        android:layout_below="@+id/CRIME"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Crime Description: "
+        android:textSize="20sp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/LOCATION"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location: "
+        android:textSize="20sp"
+        android:fontFamily="@font/aclonica"
+        android:layout_below="@+id/CRIME_DESCRIPTION"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/STATUS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status: "
+        android:textSize="20sp"
+        android:fontFamily="@font/aclonica"
+        android:layout_below="@+id/LOCATION"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black" />
+
+    <fragment
+        android:id="@+id/google_map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@+id/STATUS"
+        android:layout_marginTop="20dp" />
+
+</RelativeLayout>

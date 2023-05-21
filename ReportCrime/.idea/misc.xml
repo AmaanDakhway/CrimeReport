@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/ReportCrime/app/src/main/res/drawable/round.xml" value="0.2703125" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/ReportCrime/app/src/main/res/font/aclonica.xml" value="0.2828125" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/ReportCrime/app/src/main/res/layout/activity_display_report.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/ReportCrime/app/src/main/res/layout/activity_login.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/ReportCrime/app/src/main/res/layout/activity_main.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/ReportCrime/app/src/main/res/layout/activity_registration.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/ReportCrime/app/src/main/res/layout/activity_start.xml" value="0.20854700854700856" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/ReportCrime/app/src/main/res/layout/activity_user_report_history.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/ReportCrime/app/src/main/res/layout/fragment_described_report_history.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/ReportCrime/app/src/main/res/layout/fragment_emergency.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/ReportCrime/app/src/main/res/layout/fragment_report.xml" value="0.152" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/ReportCrime/app/src/main/res/layout/fragment_report_check.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/ReportCrime/app/src/main/res/layout/singlerowdesign.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

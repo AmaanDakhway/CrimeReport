@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:background="@drawable/activity_registration"
+    tools:context=".RegistrationActivity">
+
+    <TextView
+        android:id="@+id/topCreateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text=""
+        android:textSize="30sp" />
+
+
+    <EditText
+        android:id="@+id/emailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/topCreateText"
+        android:layout_marginTop="185dp"
+        android:background="@drawable/textfield"
+        android:hint="EMAIL ADDRESS"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emailAddress"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/textfield"
+        android:hint="PASSWORD"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/textfield"
+        android:ems="10"
+        android:hint="PHONE NUMBER"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/Registration"
+        android:layout_width="170dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/phone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="73dp"
+        android:background="@drawable/button1"
+        android:fontFamily="@font/aclonica"
+        android:text="REGISTER"
+        android:textSize="20sp" />
+
+</RelativeLayout>
